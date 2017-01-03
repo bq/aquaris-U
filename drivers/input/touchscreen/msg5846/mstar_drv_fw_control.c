@@ -129,6 +129,8 @@ static u8 _gFwDataBuf[MSG28XX_FIRMWARE_WHOLE_SIZE*1024] = {0}; // for update fir
 #ifdef CONFIG_ENABLE_CHIP_TYPE_MSG28XX
 #if defined(CONFIG_TOUCHSCREEN_MSG5846_FOR_CHAOZU)
 #include "chaozu_msg28xx_xxxx_update_bin.h"
+#elif defined(CONFIG_TOUCHSCREEN_MSG5846_FOR_CHAOZULITE)
+#include "chaozulite_msg28xx_xxxx_update_bin.h"
 #else
 #include "tenshi_msg28xx_xxxx_update_bin.h"
 #endif
