@@ -325,6 +325,7 @@
 			qcom,fg-chg-iterm-ma = <100>;
 			qcom,pmic-revid = <&pmi8950_revid>;
 			qcom,fg-cutoff-voltage-mv = <3400>;
+                        qcom,irq-volt-empty-mv = <3350>;
 			qcom,cycle-counter-en;
 			qcom,capacity-learning-on;
 
